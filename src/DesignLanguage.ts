@@ -22,9 +22,18 @@ const palette = {
  * you can define an object to keep track of your fonts.
  */
 const Fonts = {
-  SourceSansPro: {
-    Regular: Font.fromFile('assets/SourceSansPro-Regular.ttf'),
-  },
+  UniNeue: {
+    Thin: Font.fromFile('assets/fonts/uni-neue/UniNeue-Thin.ttf', 'UniNeueThin'),
+    ThinItalic: Font.fromFile('assets/fonts/uni-neue/UniNeue-Thin.ttf', 'UniNeueThinItalic'),
+    Light: Font.fromFile('assets/fonts/uni-neue/UniNeue-Light.ttf', 'UniNeueLight'),
+    LightItalic: Font.fromFile('assets/fonts/uni-neue/UniNeue-LightItalic.ttf', 'UniNeueLightItalic'),
+    Regular: Font.fromFile('assets/fonts/uni-neue/UniNeue-Regular.ttf', 'UniNeueRegular'),
+    RegularItalic: Font.fromFile('assets/fonts/uni-neue/UniNeue-RegularItalic.ttf', 'UniNeueRegularItalic'),
+    Bold: Font.fromFile('assets/fonts/uni-neue/UniNeue-Bold.ttf', 'UniNeueBold'),
+    BoldItalic: Font.fromFile('assets/fonts/uni-neue/UniNeue-BoldItalic.ttf', 'UniNeueBoldItalic'),
+    Black: Font.fromFile('assets/fonts/uni-neue/UniNeue-Black.ttf', 'UniNeueBlack'),
+    BlackItalic: Font.fromFile('assets/fonts/uni-neue/UniNeue-BlackItalic.ttf', 'UniNeueBlackItalic'),
+  }
 }
 
 const FontSizes = {
@@ -42,18 +51,18 @@ const FontSizes = {
  */
 const typography = {
   heading1: new Typograph({
-    font: Fonts.SourceSansPro.Regular,
+    font: Fonts.UniNeue.Bold,
     fontSize: FontSizes.xxl,
     color: palette.text,
   }),
   body: new Typograph({
-    font: Fonts.SourceSansPro.Regular,
+    font: Fonts.UniNeue.Regular,
     fontSize: FontSizes.md,
     color: palette.text,
     alignment: TextAlignment.Center,
   }),
   caption: new Typograph({
-    font: Fonts.SourceSansPro.Regular,
+    font: Fonts.UniNeue.Regular,
     fontSize: FontSizes.sm,
     color: palette.caption,
   }),

@@ -266,7 +266,7 @@
         "affectsGlobalScope": false
       },
       "../src/designlanguage.ts": {
-        "version": "54eaeef795f3a7e81cec0e468325983726335ecd2768a6a19a3c1a6c56d6d074",
+        "version": "dfaec764a0fcbdb48ea801342b513eb62a4477118464c131946ae3e233432eb0",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {

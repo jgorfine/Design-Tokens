@@ -1,9 +1,15 @@
 
 @font-face {
-  font-family: "SourceSansPro-Regular";
+  font-family: "UniNeueBold";
   font-weight: 400;
   font-style: normal;
-  src: local("SourceSansPro-Regular"), url("http://192.168.86.63:8080/assets/SourceSansPro-Regular.ttf");
+  src: local("UniNeueBold"), url("http://192.168.86.63:8080/assets/fonts/uni-neue/UniNeue-Bold.ttf");
+}
+@font-face {
+  font-family: "UniNeueRegular";
+  font-weight: 400;
+  font-style: normal;
+  src: local("UniNeueRegular"), url("http://192.168.86.63:8080/assets/fonts/uni-neue/UniNeue-Regular.ttf");
 }
 
 :root {
@@ -98,7 +104,7 @@
 }
 
 .typography-heading1 {
-  font-family: "SourceSansPro-Regular",sans-serif;
+  font-family: "UniNeueBold",sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 32px;
@@ -109,7 +115,7 @@
 }
 
 .typography-body {
-  font-family: "SourceSansPro-Regular",sans-serif;
+  font-family: "UniNeueRegular",sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -120,7 +126,7 @@
 }
 
 .typography-caption {
-  font-family: "SourceSansPro-Regular",sans-serif;
+  font-family: "UniNeueRegular",sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 14px;

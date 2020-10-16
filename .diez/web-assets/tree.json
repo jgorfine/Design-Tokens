@@ -54,10 +54,10 @@
       "heading1": {
         "font": {
           "file": {
-            "src": "assets/SourceSansPro-Regular.ttf",
+            "src": "assets/fonts/uni-neue/UniNeue-Bold.ttf",
             "type": "font"
           },
-          "name": "SourceSansPro-Regular",
+          "name": "UniNeueBold",
           "fallbacks": [
             "sans-serif"
           ],
@@ -81,10 +81,10 @@
       "body": {
         "font": {
           "file": {
-            "src": "assets/SourceSansPro-Regular.ttf",
+            "src": "assets/fonts/uni-neue/UniNeue-Regular.ttf",
             "type": "font"
           },
-          "name": "SourceSansPro-Regular",
+          "name": "UniNeueRegular",
           "fallbacks": [
             "sans-serif"
           ],
@@ -108,10 +108,10 @@
       "caption": {
         "font": {
           "file": {
-            "src": "assets/SourceSansPro-Regular.ttf",
+            "src": "assets/fonts/uni-neue/UniNeue-Regular.ttf",
             "type": "font"
           },
-          "name": "SourceSansPro-Regular",
+          "name": "UniNeueRegular",
           "fallbacks": [
             "sans-serif"
           ],

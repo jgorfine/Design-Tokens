@@ -22,9 +22,18 @@ const palette = {
  * you can define an object to keep track of your fonts.
  */
 const Fonts = {
-    SourceSansPro: {
-        Regular: prefabs_1.Font.fromFile('assets/SourceSansPro-Regular.ttf'),
-    },
+    UniNeue: {
+        Thin: prefabs_1.Font.fromFile('assets/fonts/uni-neue/UniNeue-Thin.ttf', 'UniNeueThin'),
+        ThinItalic: prefabs_1.Font.fromFile('assets/fonts/uni-neue/UniNeue-Thin.ttf', 'UniNeueThinItalic'),
+        Light: prefabs_1.Font.fromFile('assets/fonts/uni-neue/UniNeue-Light.ttf', 'UniNeueLight'),
+        LightItalic: prefabs_1.Font.fromFile('assets/fonts/uni-neue/UniNeue-LightItalic.ttf', 'UniNeueLightItalic'),
+        Regular: prefabs_1.Font.fromFile('assets/fonts/uni-neue/UniNeue-Regular.ttf', 'UniNeueRegular'),
+        RegularItalic: prefabs_1.Font.fromFile('assets/fonts/uni-neue/UniNeue-RegularItalic.ttf', 'UniNeueRegularItalic'),
+        Bold: prefabs_1.Font.fromFile('assets/fonts/uni-neue/UniNeue-Bold.ttf', 'UniNeueBold'),
+        BoldItalic: prefabs_1.Font.fromFile('assets/fonts/uni-neue/UniNeue-BoldItalic.ttf', 'UniNeueBoldItalic'),
+        Black: prefabs_1.Font.fromFile('assets/fonts/uni-neue/UniNeue-Black.ttf', 'UniNeueBlack'),
+        BlackItalic: prefabs_1.Font.fromFile('assets/fonts/uni-neue/UniNeue-BlackItalic.ttf', 'UniNeueBlackItalic'),
+    }
 };
 const FontSizes = {
     xxl: 32,
@@ -40,18 +49,18 @@ const FontSizes = {
  */
 const typography = {
     heading1: new prefabs_1.Typograph({
-        font: Fonts.SourceSansPro.Regular,
+        font: Fonts.UniNeue.Bold,
         fontSize: FontSizes.xxl,
         color: palette.text,
     }),
     body: new prefabs_1.Typograph({
-        font: Fonts.SourceSansPro.Regular,
+        font: Fonts.UniNeue.Regular,
         fontSize: FontSizes.md,
         color: palette.text,
         alignment: "center" /* Center */,
     }),
     caption: new prefabs_1.Typograph({
-        font: Fonts.SourceSansPro.Regular,
+        font: Fonts.UniNeue.Regular,
         fontSize: FontSizes.sm,
         color: palette.caption,
     }),
