@@ -31,10 +31,10 @@ const webpackConfig = {
     }),
     new CopyWebpackPlugin([
       {from: 'public'},
-      {from: '../../design-language/build/diez-fiscal-note-tokens-web/static', to: 'diez'},
+      {from: '../../build/diez-fiscalnote-design-tokens-web/static', to: 'diez'},
     ]),
     new DiezWebpackPlugin({
-      sdk: 'diez-fiscal-note-tokens',
+      sdk: 'diez-fiscalnote-design-tokens',
     }),
   ],
   performance: {hints: false},

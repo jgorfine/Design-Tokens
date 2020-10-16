@@ -1,5 +1,5 @@
 {
-  "name": "fiscal-note-tokens-app",
+  "name": "fiscalnote-design-tokens-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
-    "diez-fiscal-note-tokens": "file:../../design-language/build/diez-fiscal-note-tokens-web",
+    "diez-fiscalnote-design-tokens": "file:../../build/diez-fiscalnote-design-tokens-web",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },

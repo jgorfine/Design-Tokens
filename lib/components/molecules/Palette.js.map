@@ -1,0 +1,1 @@
+{"version":3,"file":"Palette.js","sourceRoot":"","sources":["../../../src/components/molecules/Palette.ts"],"names":[],"mappings":";;AAAA,2CAAqD;AACrD,4CAAqC;AAErC,kBAAe;IACX,iBAAiB,EAAE,gBAAM,CAAC,SAAS;IACnC,IAAI,EAAE,gBAAM,CAAC,QAAQ;IACrB,OAAO,EAAE,gBAAM,CAAC,aAAa;IAC7B,gBAAgB,EAAE,wBAAc,CAAC,IAAI,mBAAgB,gBAAM,CAAC,aAAa,EAAE,gBAAM,CAAC,KAAK,CAAC;CAC3F,CAAA"}
