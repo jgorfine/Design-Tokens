@@ -266,7 +266,7 @@
         "affectsGlobalScope": false
       },
       "../src/designlanguage.ts": {
-        "version": "e9dae3418dcc16da0ff705807347a6307a4b9c62c082c94a3b68c314d00f0cae",
+        "version": "54eaeef795f3a7e81cec0e468325983726335ecd2768a6a19a3c1a6c56d6d074",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
@@ -658,7 +658,7 @@
       "incremental": true,
       "target": 99,
       "rootDir": "../src",
-      "outDir": "./40001360-c845-40cd-95bb-01552948b748",
+      "outDir": "./11fde0f8-b13f-42f1-bb52-d00a762c16c9",
       "experimentalDecorators": true,
       "module": 1,
       "strict": true,

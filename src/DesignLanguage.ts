@@ -11,8 +11,8 @@ import {Margin} from './components/Margin';
  * You can reference properties from other components.
  */
 const palette = {
-  contentBackground: Colors.greyLight,
-  text: Colors.tealTech,
+  pageBackground: Colors.greyLight,
+  text: Colors.purplePrimary,
   caption: Colors.purplePrimary,
   headerBackground: LinearGradient.make(Toward.Bottom, Colors.purplePrimary, Colors.black),
 }
@@ -27,6 +27,15 @@ const Fonts = {
   },
 }
 
+const FontSizes = {
+  xxl: 32, // 2em
+  xl: 24,  // 1.5em
+  l: 18,   // 1.125em
+  md: 16,  // 1em
+  sm: 14,  // 0.875em
+  xs: 12,  // 0.75em
+}
+
 /**
  * Typographs encapsulate type styles with support for a specific font, font size,
  * and color. More typograph properties are coming soon.
@@ -34,20 +43,18 @@ const Fonts = {
 const typography = {
   heading1: new Typograph({
     font: Fonts.SourceSansPro.Regular,
-    fontSize: 24,
+    fontSize: FontSizes.xxl,
     color: palette.text,
   }),
-
   body: new Typograph({
     font: Fonts.SourceSansPro.Regular,
-    fontSize: 18,
+    fontSize: FontSizes.md,
     color: palette.text,
     alignment: TextAlignment.Center,
   }),
-
   caption: new Typograph({
     font: Fonts.SourceSansPro.Regular,
-    fontSize: 14,
+    fontSize: FontSizes.sm,
     color: palette.caption,
   }),
 }

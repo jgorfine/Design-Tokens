@@ -103,9 +103,9 @@ export declare class Palette {
   /**
    * hsla(0, 0, 0.95, 1)
    */
-  contentBackground: Color;
+  pageBackground: Color;
   /**
-   * hsla(0.51, 0.6, 0.52, 1)
+   * hsla(0.82, 0.31, 0.21, 1)
    */
   text: Color;
   /**
@@ -203,7 +203,7 @@ export declare class Typography {
   /**
    * - font: `SourceSansPro-Regular, 400, normal`
    * - fontSize: `24`
-   * - color: `hsla(0.51, 0.6, 0.52, 1)`
+   * - color: `hsla(0.82, 0.31, 0.21, 1)`
    * - iosTextStyle: `body`
    * - shouldScale: `false`
    * - lineHeight: `-1`
@@ -215,7 +215,7 @@ export declare class Typography {
   /**
    * - font: `SourceSansPro-Regular, 400, normal`
    * - fontSize: `18`
-   * - color: `hsla(0.51, 0.6, 0.52, 1)`
+   * - color: `hsla(0.82, 0.31, 0.21, 1)`
    * - iosTextStyle: `body`
    * - shouldScale: `false`
    * - lineHeight: `-1`

@@ -18,6 +18,8 @@
   },
   "scripts": {
     "start": "diez start",
-    "demo": "diez start web --targetRoot='./example-codebases/web'"
+    "demo": "diez start web --targetRoot='./example-codebases/web'",
+    "android": "diez start android --targetRoot='./example-codebases/android'",
+    "ios": "diez start ios --targetRoot='./example-codebases/ios'"
   }
 }

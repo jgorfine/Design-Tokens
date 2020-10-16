@@ -284,17 +284,17 @@ Object.defineProperties(LinearGradient.prototype, {
  */
 class Palette {
   constructor({
-    contentBackground = {h: 0, s: 0, l: 0.9490196078431372, a: 1},
-    text = {h: 0.5079365079365079, s: 0.5951417004048584, l: 0.515686274509804, a: 1},
+    pageBackground = {h: 0, s: 0, l: 0.9490196078431372, a: 1},
+    text = {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1},
     caption = {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1},
     headerBackground = {stops: [{position: 0, color: {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1}}, {position: 1, color: {h: 0, s: 0, l: 0, a: 1}}], start: {x: 0.5, y: 0}, end: {x: 0.5, y: 1}}
   } = {}) {
     /**
      * hsla(0, 0, 0.95, 1)
      */
-    this.contentBackground = new Color(contentBackground);
+    this.pageBackground = new Color(pageBackground);
     /**
-     * hsla(0.51, 0.6, 0.52, 1)
+     * hsla(0.82, 0.31, 0.21, 1)
      */
     this.text = new Color(text);
     /**
@@ -429,7 +429,7 @@ class Typograph {
     /**
      * Typograph data.
      *
-     * hsla(0.51, 0.6, 0.52, 1)
+     * hsla(0.82, 0.31, 0.21, 1)
      */
     this.color = new Color(color);
     /**
@@ -551,14 +551,14 @@ diezHTMLExtensions.push(() => {
  */
 class Typography {
   constructor({
-    heading1 = {font: {file: {src: "assets/SourceSansPro-Regular.ttf", type: "font"}, name: "SourceSansPro-Regular", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 24, color: {h: 0.5079365079365079, s: 0.5951417004048584, l: 0.515686274509804, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "natural", decoration: []},
-    body = {font: {file: {src: "assets/SourceSansPro-Regular.ttf", type: "font"}, name: "SourceSansPro-Regular", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 18, color: {h: 0.5079365079365079, s: 0.5951417004048584, l: 0.515686274509804, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "center", decoration: []},
+    heading1 = {font: {file: {src: "assets/SourceSansPro-Regular.ttf", type: "font"}, name: "SourceSansPro-Regular", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 24, color: {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "natural", decoration: []},
+    body = {font: {file: {src: "assets/SourceSansPro-Regular.ttf", type: "font"}, name: "SourceSansPro-Regular", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 18, color: {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "center", decoration: []},
     caption = {font: {file: {src: "assets/SourceSansPro-Regular.ttf", type: "font"}, name: "SourceSansPro-Regular", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 14, color: {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "natural", decoration: []}
   } = {}) {
     /**
      * - font: `SourceSansPro-Regular, 400, normal`
      * - fontSize: `24`
-     * - color: `hsla(0.51, 0.6, 0.52, 1)`
+     * - color: `hsla(0.82, 0.31, 0.21, 1)`
      * - iosTextStyle: `body`
      * - shouldScale: `false`
      * - lineHeight: `-1`
@@ -570,7 +570,7 @@ class Typography {
     /**
      * - font: `SourceSansPro-Regular, 400, normal`
      * - fontSize: `18`
-     * - color: `hsla(0.51, 0.6, 0.52, 1)`
+     * - color: `hsla(0.82, 0.31, 0.21, 1)`
      * - iosTextStyle: `body`
      * - shouldScale: `false`
      * - lineHeight: `-1`

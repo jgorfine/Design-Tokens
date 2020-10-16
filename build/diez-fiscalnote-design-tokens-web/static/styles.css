@@ -7,8 +7,8 @@
 }
 
 :root {
-  --palette-content-background: hsla(0, 0%, 94.90196078431372%, 1);
-  --palette-text: hsla(182.85714285714283, 59.51417004048584%, 51.5686274509804%, 1);
+  --palette-page-background: hsla(0, 0%, 94.90196078431372%, 1);
+  --palette-text: hsla(294.7058823529412, 31.481481481481477%, 21.176470588235297%, 1);
   --palette-caption: hsla(294.7058823529412, 31.481481481481477%, 21.176470588235297%, 1);
   --palette-header-background: linear-gradient(180deg, hsla(294.7058823529412, 31.481481481481477%, 21.176470588235297%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
   --images-logo: url("/diez/assets/logo.png");
@@ -65,20 +65,20 @@
   --strings-helper: "Modify the contents of “src/DesignLanguage.ts” (relative to the root of the Diez project) to see changes to the design language in real time.";
 }
 
-.palette-content-background-background-color {
+.palette-page-background-background-color {
   background-color: hsla(0, 0%, 94.90196078431372%, 1);
 }
 
-.palette-content-background-color {
+.palette-page-background-color {
   color: hsla(0, 0%, 94.90196078431372%, 1);
 }
 
 .palette-text-background-color {
-  background-color: hsla(182.85714285714283, 59.51417004048584%, 51.5686274509804%, 1);
+  background-color: hsla(294.7058823529412, 31.481481481481477%, 21.176470588235297%, 1);
 }
 
 .palette-text-color {
-  color: hsla(182.85714285714283, 59.51417004048584%, 51.5686274509804%, 1);
+  color: hsla(294.7058823529412, 31.481481481481477%, 21.176470588235297%, 1);
 }
 
 .palette-caption-background-color {
@@ -102,7 +102,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
-  color: hsla(182.85714285714283, 59.51417004048584%, 51.5686274509804%, 1);
+  color: hsla(294.7058823529412, 31.481481481481477%, 21.176470588235297%, 1);
   letter-spacing: 0px;
   text-align: start;
   text-decoration: none;
@@ -113,7 +113,7 @@
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-  color: hsla(182.85714285714283, 59.51417004048584%, 51.5686274509804%, 1);
+  color: hsla(294.7058823529412, 31.481481481481477%, 21.176470588235297%, 1);
   letter-spacing: 0px;
   text-align: center;
   text-decoration: none;
