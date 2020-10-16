@@ -41,7 +41,7 @@ export default {
     infoErrorRed: Color.hex('#E82733'),
     infoGoodGreen: Color.hex('#00914C'),
     infoYellowGreen: Color.hex('#ADA94E'),
-    activeGreen: Color.hex('006F3A'),
+    activeGreen: Color.hex('#006F3A'),
     // Marketing Team Colors
     // see: https://drive.google.com/file/d/1k5LXQGbVHQVAyGOaktvUkYpL6WTDXkhO/view
     purpleBold: Color.hex('#442547'),

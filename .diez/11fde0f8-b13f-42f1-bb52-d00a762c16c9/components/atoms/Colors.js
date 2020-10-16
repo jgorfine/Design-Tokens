@@ -42,7 +42,7 @@ exports.default = {
     infoErrorRed: prefabs_1.Color.hex('#E82733'),
     infoGoodGreen: prefabs_1.Color.hex('#00914C'),
     infoYellowGreen: prefabs_1.Color.hex('#ADA94E'),
-    activeGreen: prefabs_1.Color.hex('006F3A'),
+    activeGreen: prefabs_1.Color.hex('#006F3A'),
     // Marketing Team Colors
     // see: https://drive.google.com/file/d/1k5LXQGbVHQVAyGOaktvUkYpL6WTDXkhO/view
     purpleBold: prefabs_1.Color.hex('#442547'),

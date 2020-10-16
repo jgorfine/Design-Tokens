@@ -258,7 +258,7 @@
         "affectsGlobalScope": false
       },
       "../src/components/atoms/colors.ts": {
-        "version": "d12d6073d3f3cc8fae68db196d1bed25550d9bf1fb8427488e63487e3f0d3923",
+        "version": "563b5949fcdf8fbe804811e09de872795d22e3886f290cad64ad93927b684b35",
         "affectsGlobalScope": false
       },
       "../src/components/margin.ts": {
