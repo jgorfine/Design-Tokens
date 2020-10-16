@@ -1,6 +1,6 @@
 {
   "name": "fiscalnote-design-tokens",
-  "private": true,
+  "private": false,
   "main": "lib/index.js",
   "version": "0.1.0",
   "dependencies": {
