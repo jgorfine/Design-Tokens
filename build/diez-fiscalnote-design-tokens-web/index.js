@@ -328,7 +328,7 @@ class File {
     /**
      * File data.
      *
-     * assets/SourceSansPro-Regular.ttf
+     * assets/fonts/uni-neue/UniNeue-Bold.ttf
      */
     this.src = src;
     /**
@@ -366,13 +366,13 @@ class Font {
     /**
      * Font data.
      *
-     * assets/SourceSansPro-Regular.ttf
+     * assets/fonts/uni-neue/UniNeue-Bold.ttf
      */
     this.file = new File(file);
     /**
      * Font data.
      *
-     * SourceSansPro-Regular
+     * UniNeueBold
      */
     this.name = name;
     /**
@@ -417,13 +417,13 @@ class Typograph {
     /**
      * Typograph data.
      *
-     * SourceSansPro-Regular, 400, normal
+     * UniNeueBold, 400, normal
      */
     this.font = new Font(font);
     /**
      * Typograph data.
      *
-     * 24
+     * 32
      */
     this.fontSize = fontSize;
     /**
@@ -551,13 +551,13 @@ diezHTMLExtensions.push(() => {
  */
 class Typography {
   constructor({
-    heading1 = {font: {file: {src: "assets/SourceSansPro-Regular.ttf", type: "font"}, name: "SourceSansPro-Regular", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 24, color: {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "natural", decoration: []},
-    body = {font: {file: {src: "assets/SourceSansPro-Regular.ttf", type: "font"}, name: "SourceSansPro-Regular", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 18, color: {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "center", decoration: []},
-    caption = {font: {file: {src: "assets/SourceSansPro-Regular.ttf", type: "font"}, name: "SourceSansPro-Regular", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 14, color: {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "natural", decoration: []}
+    heading1 = {font: {file: {src: "assets/fonts/uni-neue/UniNeue-Bold.ttf", type: "font"}, name: "UniNeueBold", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 32, color: {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "natural", decoration: []},
+    body = {font: {file: {src: "assets/fonts/uni-neue/UniNeue-Regular.ttf", type: "font"}, name: "UniNeueRegular", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 16, color: {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "center", decoration: []},
+    caption = {font: {file: {src: "assets/fonts/uni-neue/UniNeue-Regular.ttf", type: "font"}, name: "UniNeueRegular", fallbacks: ["sans-serif"], weight: 400, style: "normal"}, fontSize: 14, color: {h: 0.8186274509803922, s: 0.31481481481481477, l: 0.21176470588235297, a: 1}, lineHeight: -1, letterSpacing: 0, alignment: "natural", decoration: []}
   } = {}) {
     /**
-     * - font: `SourceSansPro-Regular, 400, normal`
-     * - fontSize: `24`
+     * - font: `UniNeueBold, 400, normal`
+     * - fontSize: `32`
      * - color: `hsla(0.82, 0.31, 0.21, 1)`
      * - iosTextStyle: `body`
      * - shouldScale: `false`
@@ -568,8 +568,8 @@ class Typography {
      */
     this.heading1 = new Typograph(heading1);
     /**
-     * - font: `SourceSansPro-Regular, 400, normal`
-     * - fontSize: `18`
+     * - font: `UniNeueRegular, 400, normal`
+     * - fontSize: `16`
      * - color: `hsla(0.82, 0.31, 0.21, 1)`
      * - iosTextStyle: `body`
      * - shouldScale: `false`
@@ -580,7 +580,7 @@ class Typography {
      */
     this.body = new Typograph(body);
     /**
-     * - font: `SourceSansPro-Regular, 400, normal`
+     * - font: `UniNeueRegular, 400, normal`
      * - fontSize: `14`
      * - color: `hsla(0.82, 0.31, 0.21, 1)`
      * - iosTextStyle: `body`

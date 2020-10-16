@@ -17,6 +17,7 @@
     "typescript": "^3.7.2"
   },
   "scripts": {
+    "compile": "diez compile --target='web'",
     "start": "diez start",
     "demo": "diez start web --targetRoot='./example-codebases/web'",
     "android": "diez start android --targetRoot='./example-codebases/android'",

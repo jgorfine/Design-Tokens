@@ -133,13 +133,13 @@ export declare class Font {
   /**
    * Font data.
    *
-   * assets/SourceSansPro-Regular.ttf
+   * assets/fonts/uni-neue/UniNeue-Bold.ttf
    */
   file: File;
   /**
    * Font data.
    *
-   * SourceSansPro-Regular
+   * UniNeueBold
    */
   name: string;
   /**
@@ -201,8 +201,8 @@ declare global {
  */
 export declare class Typography {
   /**
-   * - font: `SourceSansPro-Regular, 400, normal`
-   * - fontSize: `24`
+   * - font: `UniNeueBold, 400, normal`
+   * - fontSize: `32`
    * - color: `hsla(0.82, 0.31, 0.21, 1)`
    * - iosTextStyle: `body`
    * - shouldScale: `false`
@@ -213,8 +213,8 @@ export declare class Typography {
    */
   heading1: Typograph;
   /**
-   * - font: `SourceSansPro-Regular, 400, normal`
-   * - fontSize: `18`
+   * - font: `UniNeueRegular, 400, normal`
+   * - fontSize: `16`
    * - color: `hsla(0.82, 0.31, 0.21, 1)`
    * - iosTextStyle: `body`
    * - shouldScale: `false`
@@ -225,7 +225,7 @@ export declare class Typography {
    */
   body: Typograph;
   /**
-   * - font: `SourceSansPro-Regular, 400, normal`
+   * - font: `UniNeueRegular, 400, normal`
    * - fontSize: `14`
    * - color: `hsla(0.82, 0.31, 0.21, 1)`
    * - iosTextStyle: `body`
